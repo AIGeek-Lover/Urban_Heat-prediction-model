@@ -55,11 +55,11 @@ You can run the notebooks **locally** or on the cloud using **Google Colab**.
 
 ### Local Setup
 
-1. Install Jupyter Notebook if you don’t have it yet:  
+1. Install Jupyter Notebook if you don’t have it yet in the terminal and type jupyter notebook:  
    ```bash
    pip install notebook
    
-2. Install the relevant libraries
+2. Install the relevant libraries in Jupyter environment 
    pip install numpy xarray matplotlib rioxarray rasterio stackstac pystac-client planetary-computer odc-stac
 
 
