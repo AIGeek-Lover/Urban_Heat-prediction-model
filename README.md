@@ -62,6 +62,12 @@ You can run the notebooks **locally** or on the cloud using **Google Colab**.
 2. Install the relevant libraries in Jupyter environment 
    pip install numpy xarray matplotlib rioxarray rasterio stackstac pystac-client planetary-computer odc-stac
 
+Or if you would like , feel free to clone the repository
 
+### Clone the Repository
+
+```bash
+git clone https://github.com/AIGeek-Lover/Urban-Heat-Index-Prediction.git
+cd Urban-Heat-Index-Prediction
 
    
