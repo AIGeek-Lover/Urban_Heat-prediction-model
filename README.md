@@ -67,7 +67,7 @@ Or if you would like , feel free to clone the repository
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/AIGeek-Lover/Urban-Heat-Index-Prediction.git
+git clone -v https://github.com/AIGeek-Lover/Urban-Heat-Index-Prediction.git
 cd Urban-Heat-Index-Prediction
 
    
