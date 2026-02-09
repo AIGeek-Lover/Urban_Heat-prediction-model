@@ -53,21 +53,66 @@ This experience taught me how data science can contribute meaningfully to **sust
 
 You can run the notebooks **locally** or on the cloud using **Google Colab**.
 
-### Local Setup
+## 🚀 Local Setup Guide
 
-1. Install Jupyter Notebook if you don’t have it yet in the terminal and type jupyter notebook:  
-   ```bash
-   pip install notebook
-   
-2. Install the relevant libraries in Jupyter environment 
-   pip install numpy xarray matplotlib rioxarray rasterio stackstac pystac-client planetary-computer odc-stac
+Follow the steps below to run the Urban Heat Index Prediction project locally.
 
-Or if you would like , feel free to clone the repository
+---
 
-### Clone the Repository
+### 1️⃣ Clone the Repository
+
+First, clone the project repository and navigate into the project folder.
 
 ```bash
-git clone -v https://github.com/AIGeek-Lover/Urban-Heat-Index-Prediction.git
+git clone https://github.com/AIGeek-Lover/Urban-Heat-Index-Prediction.git
 cd Urban-Heat-Index-Prediction
+```
+
+---
+
+### 2️⃣ Install Jupyter Notebook
+
+Open your terminal inside the project directory and install Jupyter Notebook:
+
+```bash
+pip install notebook
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+---
+
+### 3️⃣ Install Required Libraries
+
+Once Jupyter Notebook opens:
+
+1. Navigate to the relevant `.ipynb` notebook file.
+2. Open a new cell.
+3. Run the following command to install required dependencies:
+
+```bash
+pip install numpy xarray matplotlib rioxarray rasterio stackstac pystac-client planetary-computer odc-stac
+```
+
+---
+
+## 📦 Dependencies
+
+This project uses the following Python libraries:
+
+- numpy  
+- xarray  
+- matplotlib  
+- rioxarray  
+- rasterio  
+- stackstac  
+- pystac-client  
+- planetary-computer  
+- odc-stac  
+
 
    
